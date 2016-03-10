@@ -10,7 +10,7 @@
   <description>
     Create a staff list for Namibia by facility
   </description>
-  <definition ><xi:include parse='text' href='staff_list.xq'/></definition>
+  <definition ><xi:include parse='text' href='Staff_list.xq'/></definition>
   <xforms:instance>
     <careServicesRequest/>
   </xforms:instance>
