@@ -1,4 +1,6 @@
 declare namespace csd = 'urn:ihe:iti:csd:2013';
+declare variable $careServicesRequest as item() external;
+
 <html>
  <body>
   <ul>
