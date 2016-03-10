@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<careServicesFunction xmlns="urn:ihe:iti:csd:2013"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:csd="urn:ihe:iti:csd:2013"
+  xsi:schemaLocation="urn:ihe:iti:csd:2013 CSD.xsd" xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+  urn="urn:openhie.org:openinfoman-namibia:stored-function:staff_list"
+  >
+  <description>
+    Create a staff list for Namibia by facility
+  </description>
+  <definition ><xi:include parse='text' href='staff_list.xq'/></definition>
+  <xforms:instance>
+    <careServicesRequest/>
+  </xforms:instance>
+</careServicesFunction>
